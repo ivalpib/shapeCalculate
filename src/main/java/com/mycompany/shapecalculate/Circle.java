@@ -6,7 +6,7 @@ package com.mycompany.shapecalculate;
 
 /**
  *
- * @author valpib
+ * @author Biplav Karki
  */
 
 public class Circle extends Shape {
