@@ -6,7 +6,7 @@ package com.mycompany.shapecalculate;
 
 /**
  *
- * @author valpib
+ * @author Biplav Karki
  */
 public abstract class Shape {
     protected String color;
