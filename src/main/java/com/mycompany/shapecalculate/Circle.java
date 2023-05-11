@@ -7,6 +7,7 @@ package com.mycompany.shapecalculate;
 /**
  *
  * @author Biplav Karki
+ * Student ID : 54614
  */
 
 public class Circle extends Shape {
@@ -23,12 +24,16 @@ public class Circle extends Shape {
 
     @Override
     public double getArea() {
-        return Math.PI * radius * radius;
+        double area;
+        area = Math.PI * radius * radius;
+        return area;
     }
 
     @Override
     public double getPerimeter() {
-        return 2 * Math.PI * radius;
+        double perimeter;
+        perimeter = 2 * Math.PI * radius;
+        return perimeter;
     }
 }
 

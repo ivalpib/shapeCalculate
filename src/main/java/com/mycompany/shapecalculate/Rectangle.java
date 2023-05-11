@@ -7,32 +7,37 @@ package com.mycompany.shapecalculate;
 /**
  *
  * @author Biplav Karki
+ * Student ID : 54614
  */
 public class Rectangle extends Shape {
-    private double width;
-    private double height;
+    private double length;
+    private double breadth;
 
-    public Rectangle(String color, double width, double height) {
+    public Rectangle(String color, double length, double breadth) {
         super(color);
-        this.width = width;
-        this.height = height;
+        this.length = length;
+        this.breadth = breadth;
     }
 
-    public double getWidth() {
-        return width;
+    public double getLength() {
+        return length;
     }
 
-    public double getHeight() {
-        return height;
+    public double getBreadth() {
+        return breadth;
     }
 
     @Override
     public double getArea() {
-        return width * height;
+        double area;
+        area = length * breadth;
+        return area;
     }
 
     @Override
     public double getPerimeter() {
-        return 2 * (width + height);
+        double perimeter;
+        perimeter = 2 * (length + breadth);
+        return perimeter;
     }
 }

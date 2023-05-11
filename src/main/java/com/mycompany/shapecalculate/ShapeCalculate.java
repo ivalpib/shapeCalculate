@@ -1,5 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
 package com.mycompany.shapecalculate;
@@ -8,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Biplav Karki
+ * @author valpib
  */
 public class ShapeCalculate {
     
@@ -27,7 +28,7 @@ public class ShapeCalculate {
             System.out.println("Area: " + shape.getArea());
             System.out.println("Perimeter: " + shape.getPerimeter());
             System.out.println();
-        }
+}
 
         for(int i=0; i<=shapes.length-1;i++){
              System.out.println("Color: " + shapes[i].color);
